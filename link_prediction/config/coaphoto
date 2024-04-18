@@ -1,0 +1,218 @@
+{
+  "data": {
+    "desc": null,
+    "value": "coacomputer"
+  },
+  "norm": {
+    "desc": null,
+    "value": null
+  },
+  "task": {
+    "desc": null,
+    "value": "lp"
+  },
+  "alpha": {
+    "desc": null,
+    "value": 1.1
+  },
+  "batch": {
+    "desc": null,
+    "value": 16
+  },
+  "debug": {
+    "desc": null,
+    "value": 0
+  },
+  "heads": {
+    "desc": null,
+    "value": 8
+  },
+  "paths": {
+    "desc": null,
+    "value": 10
+  },
+  "_wandb": {
+    "desc": null,
+    "value": {
+      "t": {
+        "1": [
+          1,
+          5,
+          49,
+          53,
+          55,
+          76,
+          77
+        ],
+        "2": [
+          1,
+          5,
+          49,
+          53,
+          55,
+          76,
+          77
+        ],
+        "3": [
+          23,
+          37
+        ],
+        "4": "3.8.10",
+        "5": "0.15.8",
+        "8": [
+          5
+        ]
+      },
+      "framework": "torch",
+      "start_time": 1701325068.372883,
+      "cli_version": "0.15.8",
+      "is_jupyter_run": false,
+      "python_version": "3.8.10",
+      "is_kaggle_kernel": false
+    }
+  },
+  "device": {
+    "desc": null,
+    "value": "cuda:0"
+  },
+  "dis_lr": {
+    "desc": null,
+    "value": 0.00035452563057436774
+  },
+  "epochs": {
+    "desc": null,
+    "value": 130
+  },
+  "gen_lr": {
+    "desc": null,
+    "value": 0.000010500637467012088
+  },
+  "decoder": {
+    "desc": null,
+    "value": "gin"
+  },
+  "encoder": {
+    "desc": null,
+    "value": "gat"
+  },
+  "repeats": {
+    "desc": null,
+    "value": 3
+  },
+  "dis_type": {
+    "desc": null,
+    "value": "gat"
+  },
+  "residual": {
+    "desc": null,
+    "value": 0
+  },
+  "mask_rate": {
+    "desc": null,
+    "value": 0.1
+  },
+  "subgraphs": {
+    "desc": null,
+    "value": 64
+  },
+  "activation": {
+    "desc": null,
+    "value": "relu"
+  },
+  "dis_layers": {
+    "desc": null,
+    "value": 1
+  },
+  "gen_layers": {
+    "desc": null,
+    "value": 2
+  },
+  "model_path": {
+    "desc": null,
+    "value": "model_save/"
+  },
+  "walk_length": {
+    "desc": null,
+    "value": 20
+  },
+  "replace_rate": {
+    "desc": null,
+    "value": 0
+  },
+  "weight_decay": {
+    "desc": null,
+    "value": 0.000028708269208120663
+  },
+  "concat_hidden": {
+    "desc": null,
+    "value": false
+  },
+  "dis_attn_drop": {
+    "desc": null,
+    "value": 0
+  },
+  "dis_feat_drop": {
+    "desc": null,
+    "value": 0
+  },
+  "dis_mask_rate": {
+    "desc": null,
+    "value": 0
+  },
+  "dis_optimizer": {
+    "desc": null,
+    "value": "rmsprop"
+  },
+  "gen_attn_drop": {
+    "desc": null,
+    "value": 0.6000000000000001
+  },
+  "gen_feat_drop": {
+    "desc": null,
+    "value": 0.1
+  },
+  "gen_optimizer": {
+    "desc": null,
+    "value": "adam"
+  },
+  "num_out_heads": {
+    "desc": null,
+    "value": 8
+  },
+  "dis_activation": {
+    "desc": null,
+    "value": "leakyrelu"
+  },
+  "dis_hidden_dim": {
+    "desc": null,
+    "value": 1024
+  },
+  "drop_edge_rate": {
+    "desc": null,
+    "value": 0.2
+  },
+  "gen_hidden_dim": {
+    "desc": null,
+    "value": 1024
+  },
+  "negative_slope": {
+    "desc": null,
+    "value": 0.2
+  },
+  "var_encoder_type": {
+    "desc": null,
+    "value": "mlp"
+  },
+  "mean_encoder_type": {
+    "desc": null,
+    "value": "mlp"
+  },
+  "pre_sample_strategy": {
+    "desc": null,
+    "value": "rw"
+  },
+  "test_sample_strategy": {
+    "desc": null,
+    "value": "1hop"
+  }
+}
