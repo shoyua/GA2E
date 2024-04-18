@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ## Running Code
 
-### [Link prediction](https://github.com/shoyua/GA2E/tree/eca5a3853e4075d50ee815b4b7acbcd70c17ead0/link_prediction)
+### [Link prediction](link_prediction)
 
 
 ```bash
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 python pretrain.py --data cora
 ```
 
-### Graph Classification
+### [Graph Classification](graph_classification)
 
 ```bash
 python main.py --data imdb-binary
